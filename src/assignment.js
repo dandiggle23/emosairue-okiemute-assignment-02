@@ -20,8 +20,8 @@ function sumOfNumbers(arrayOfNumbers) {
     }
     return sum;
 }
-console.log(sumOfNumbers([10,15,30,45,]));
 
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -41,8 +41,8 @@ function countEvenNumbers(arrayOfNumbers) {
   }
   return even_count;
 }
-console.log(countEvenNumbers([1,2,3,4,5,6,7,8,9,10]));
 
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
